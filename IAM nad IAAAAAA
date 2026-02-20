@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IAM and IAAAAA Explanation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        .box {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 6px solid #3498db;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        ul {
+            margin-top: 10px;
+        }
+        code {
+            background: #eee;
+            padding: 8px;
+            display: block;
+            margin-top: 10px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>What is IAM?</h1>
+
+    <div class="box">
+        <p><strong>IAM (Identity and Access Management)</strong> is a system that controls 
+        who can access what resources in a system or cloud environment.</p>
+
+        <ul>
+            <li>Right User</li>
+            <li>Right Access</li>
+            <li>Right Time</li>
+            <li>Right Reason</li>
+        </ul>
+
+        <p>Used in cloud platforms like:</p>
+        <ul>
+            <li>Amazon Web Services (AWS)</li>
+            <li>Microsoft Azure</li>
+            <li>Google Cloud</li>
+        </ul>
+    </div>
+
+    <h2>IAAAAA Security Model</h2>
+
+    <div class="box">
+        <p><strong>IAAAAA stands for:</strong></p>
+        <ul>
+            <li>Identification</li>
+            <li>Authentication</li>
+            <li>Authorization</li>
+            <li>Accounting</li>
+            <li>Auditing</li>
+            <li>Accountability</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h3>1. Identification</h3>
+        <p>Who are you? (Username, Email, ID)</p>
+    </div>
+
+    <div class="box">
+        <h3>2. Authentication</h3>
+        <p>Prove it! (Password, OTP, Fingerprint)</p>
+    </div>
+
+    <div class="box">
+        <h3>3. Authorization</h3>
+        <p>What can you access? (Read, Write, Delete)</p>
+    </div>
+
+    <div class="box">
+        <h3>4. Accounting</h3>
+        <p>Tracks system usage and activity logs.</p>
+    </div>
+
+    <div class="box">
+        <h3>5. Auditing</h3>
+        <p>Security team reviews logs for issues.</p>
+    </div>
+
+    <div class="box">
+        <h3>6. Accountability</h3>
+        <p>Every action is traceable to a responsible user.</p>
+    </div>
+
+    <h2>Flow Diagram</h2>
+
+    <div class="box">
+        <code>
+User → Identify → Authenticate → Authorize → Log → Audit → Responsible
+        </code>
+    </div>
+
+</body>
+</html>
