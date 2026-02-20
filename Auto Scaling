@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto Scaling and Types</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fb;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        .section {
+            background: #ffffff;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 6px solid #3498db;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        ul {
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: #ffffff;
+        }
+        th, td {
+            border:  1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Auto Scaling and Types of Auto Scaling</h1>
+
+    <div class="section">
+        <h2>What is Auto Scaling?</h2>
+        <p>Auto Scaling automatically increases or decreases server resources based on traffic demand.</p>
+        <ul>
+            <li>Improves performance</li>
+            <li>Reduces downtime</li>
+            <li>Saves cost</li>
+            <li>Handles traffic spikes</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>1️⃣ Based on Scaling Direction</h2>
+        <ul>
+            <li><b>Vertical Scaling (Scale Up/Down)</b> – Increase CPU or RAM of a server.</li>
+            <li><b>Horizontal Scaling (Scale Out/In)</b> – Add or remove servers.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>2️⃣ Based on Trigger Type</h2>
+        <ul>
+            <li><b>Reactive Scaling</b> – Scales based on live metrics like CPU usage.</li>
+            <li><b>Predictive Scaling</b> – Uses historical data to predict traffic.</li>
+            <li><b>Scheduled Scaling</b> – Scales at specific times.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>3️⃣ Based on Architecture</h2>
+        <ul>
+            <li><b>Instance Auto Scaling</b> – Adds/removes virtual machines.</li>
+            <li><b>Container Auto Scaling</b> – Scales containers (e.g., Kubernetes pods).</li>
+            <li><b>Serverless Auto Scaling</b> – Automatically scales functions.</li>
+        </ul>
+    </div>
+
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td>Vertical</td>
+            <td>Increase server power</td>
+            <td>Upgrade RAM</td>
+        </tr>
+        <tr>
+            <td>Horizontal</td>
+            <td>Add more servers</td>
+            <td>1 → 5 Servers</td>
+        </tr>
+        <tr>
+            <td>Reactive</td>
+            <td>CPU-based scaling</td>
+            <td>Scale when CPU > 70%</td>
+        </tr>
+        <tr>
+            <td>Predictive</td>
+            <td>Forecast-based scaling</td>
+            <td>Evening traffic spike</td>
+        </tr>
+        <tr>
+            <td>Scheduled</td>
+            <td>Time-based scaling</td>
+            <td>Scale at 9 AM</td>
+        </tr>
+    </table>
+
+</body>
+</html>
