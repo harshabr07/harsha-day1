@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Algorithms and Types of Algorithms</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fb;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        .section {
+            background: #ffffff;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 6px solid #8e44ad;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        ul {
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: #ffffff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #8e44ad;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Algorithms and Types of Algorithms</h1>
+
+    <div class="section">
+        <h2>What is an Algorithm?</h2>
+        <p>An algorithm is a step-by-step procedure used to solve a problem.</p>
+        <ol>
+            <li>Start</li>
+            <li>Take input</li>
+            <li>Process the data</li>
+            <li>Display output</li>
+            <li>End</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>Characteristics of an Algorithm</h2>
+        <ul>
+            <li>Well-defined steps</li>
+            <li>Finite (must end)</li>
+            <li>Clear input and output</li>
+            <li>Efficient</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Types Based on Design Technique</h2>
+        <ul>
+            <li><b>Brute Force</b> – Try all possible solutions.</li>
+            <li><b>Divide and Conquer</b> – Break problem into smaller parts.</li>
+            <li><b>Greedy</b> – Choose best option at each step.</li>
+            <li><b>Dynamic Programming</b> – Store subproblem results.</li>
+            <li><b>Backtracking</b> – Try and go back if fails.</li>
+            <li><b>Recursion</b> – Function calls itself.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Types Based on Purpose</h2>
+        <ul>
+            <li><b>Searching Algorithms</b> – Linear Search, Binary Search</li>
+            <li><b>Sorting Algorithms</b> – Bubble Sort, Merge Sort, Quick Sort</li>
+            <li><b>Graph Algorithms</b> – BFS, DFS, Dijkstra</li>
+            <li><b>Machine Learning Algorithms</b> – Linear Regression, Decision Tree</li>
+            <li><b>Cryptographic Algorithms</b> – RSA, AES, SHA</li>
+        </ul>
+    </div>
+
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Example</th>
+            <th>Use Case</th>
+        </tr>
+        <tr>
+            <td>Brute Force</td>
+            <td>Linear Search</td>
+            <td>Simple Problems</td>
+        </tr>
+        <tr>
+            <td>Divide & Conquer</td>
+            <td>Merge Sort</td>
+            <td>Sorting</td>
+        </tr>
+        <tr>
+            <td>Greedy</td>
+            <td>Dijkstra</td>
+            <td>Shortest Path</td>
+        </tr>
+        <tr>
+            <td>Dynamic Programming</td>
+            <td>Knapsack</td>
+            <td>Optimization</td>
+        </tr>
+        <tr>
+            <td>Backtracking</td>
+            <td>N-Queens</td>
+            <td>Constraint Solving</td>
+        </tr>
+    </table>
+
+</body>
+</html>
