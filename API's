@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API and Types of APIs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        .section {
+            background: #ffffff;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 6px solid #2980b9;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        ul {
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: #ffffff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2980b9;
+            color: white;
+        }
+        code {
+            background: #eee;
+            padding: 8px;
+            display: block;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>What is an API?</h1>
+
+    <div class="section">
+        <p><b>API (Application Programming Interface)</b> allows one software application to communicate with another.</p>
+    </div>
+
+    <div class="section">
+        <h2>1️⃣ Types of APIs Based on Access</h2>
+        <ul>
+            <li><b>Open API (Public API)</b> – Available to everyone.</li>
+            <li><b>Partner API</b> – Shared with business partners.</li>
+            <li><b>Internal API (Private API)</b> – Used within an organization.</li>
+            <li><b>Composite API</b> – Combines multiple APIs in one request.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>2️⃣ Types of APIs Based on Architecture</h2>
+
+        <h3>REST API</h3>
+        <p>Uses HTTP methods and JSON format.</p>
+        <code>
+GET /users<br>
+POST /login
+        </code>
+
+        <h3>SOAP API</h3>
+        <p>XML-based and uses strict standards.</p>
+
+        <h3>GraphQL API</h3>
+        <p>Client requests only required data.</p>
+        <code>
+query {<br>
+&nbsp;&nbsp;user(id: 1) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;name<br>
+&nbsp;&nbsp;&nbsp;&nbsp;email<br>
+&nbsp;&nbsp;}<br>
+}
+        </code>
+
+        <h3>gRPC API</h3>
+        <p>High-performance API using Protocol Buffers.</p>
+    </div>
+
+    <table>
+        <tr>
+            <th>API Type</th>
+            <th>Style</th>
+            <th>Use Case</th>
+        </tr>
+        <tr>
+            <td>Open API</td>
+            <td>Public Access</td>
+            <td>Public services</td>
+        </tr>
+        <tr>
+            <td>Internal API</td>
+            <td>Private</td>
+            <td>Company systems</td>
+        </tr>
+        <tr>
+            <td>REST</td>
+            <td>HTTP-based</td>
+            <td>Web applications</td>
+        </tr>
+        <tr>
+            <td>SOAP</td>
+            <td>XML-based</td>
+            <td>Enterprise systems</td>
+        </tr>
+        <tr>
+            <td>GraphQL</td>
+            <td>Flexible Query</td>
+            <td>Modern apps</td>
+        </tr>
+        <tr>
+            <td>gRPC</td>
+            <td>High-speed</td>
+            <td>Microservices</td>
+        </tr>
+    </table>
+
+</body>
+</html>
